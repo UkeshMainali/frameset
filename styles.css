@@ -123,3 +123,70 @@ a:active
     margin: 7px;
     padding: 10px;
  }
+
+ input
+ {
+    border-radius: 14px;
+    text-align: center;
+    padding: 3px;
+    margin: 4px;
+    outline: none;
+    text: blue;
+    background-color: transparent;
+    font-family: Comic Sans MS;
+    border: 2px solid green;
+    color: white;
+
+ }
+
+ input[type="submit"]:hover
+ {
+    background-color: lightgreen;
+ }
+
+ input[type="submit"]
+ {
+    width: 120px;
+    height: 55px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 25px;
+ }
+
+ input[type="reset"]:hover
+ {
+    background-color: lightgreen;
+ }
+
+ input[type="reset"]
+ {
+    width: 120px;
+    height: 55px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 25px;
+ }
+
+ textarea
+ {
+    outline: none;
+    border-radius: 15px;
+    text-align: center;
+ }
+
+ select
+ {
+    width: 120px;
+    height: 55px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 25px;
+    outline: none;
+ }
+
+ form
+ {
+    
+
+    
+ }
