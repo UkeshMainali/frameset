@@ -95,3 +95,31 @@ a:active
   color:red;
 }
 
+.main
+{
+   position: relative;
+  background-color: black; 
+  width: 100%;
+}
+
+ .header
+ {
+    flaot: left;
+     position: absolute;
+     left: 0px;
+     width: 50%;
+     
+ }
+
+ 
+
+ .header2
+ {
+    float: right;
+     position: absolute;
+    right: 0px;
+    width: 50%;
+    border-left: solid 5px black;
+    margin: 7px;
+    padding: 10px;
+ }
