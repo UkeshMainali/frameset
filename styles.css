@@ -135,7 +135,7 @@ a:active
     background-color: transparent;
     font-family: Comic Sans MS;
     border: 2px solid green;
-    color: white;
+    color: black;
 
  }
 
@@ -172,17 +172,23 @@ a:active
     outline: none;
     border-radius: 15px;
     text-align: center;
+    background-color: transparent;
  }
 
  select
  {
-    width: 120px;
+    width: 160px;
     height: 55px;
     text-align: center;
     font-size: 25px;
     border-radius: 25px;
     outline: none;
     background-color: transparent;
+ }
+ option
+ {
+    background-color: transparent;
+    color: darkred;
  }
 
  form
