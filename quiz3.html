@@ -1,0 +1,49 @@
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<form>
+<font color="blue" size="4"><u><strong>What does the information of ROM called as?</strong></u></font><br>
+<input type="text"name="quiz"placeholder="Enter your answer here..."maxlength="20" size="30"><br>
+<p id="demo"></p>
+<button type="button" onclick="document.getElementById('demo').innerHTML='Firmware'">Show answer</button>
+<button type="button" onclick="document.getElementById('demo').innerHTML=''">Hide answer</button><br>
+<p></p>
+
+<font color="blue" size="4"><u><strong>Who invented EDSAC?</strong></u></font><br>
+<input type="text"name="quiz2"placeholder="Enter your answer here..."maxlength="20" size="30"><br>
+<p id="demo2"></p>
+<button type="button" onclick="document.getElementById('demo2').innerHTML='Maurice Wikes'">Show answer</button>
+<button type="button" onclick="document.getElementById('demo2').innerHTML=''">Hide answer</button><br>
+<p></p>
+
+<input type="button" onclick="check(this.form)" value="submit">
+<button><a href="quiz4.html" >Skip</a></button>
+</form>
+
+<script language="javascript">
+
+function check(form)
+
+{
+if (form.quiz.value=="Firmware" && form.quiz2.value=="Maurice Wikes")
+{
+window.open('congrat3.html')
+}
+else
+{
+alert('Wrong answer')
+}
+
+}
+
+
+
+</script>
+
+<a href="mid.html" ><h1><button>Back to homepage</button></h1></a>
+</body>
+</html>

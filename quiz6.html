@@ -1,0 +1,53 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<form>
+<font color="blue" size="4"><u><strong>IBM computer uses<input type="text"name="quiz"placeholder="Enter your answer here..."maxlength="30" size="30">based Software.</strong></u></font><br>
+<p id="demo"></p>
+<button type="button" onclick="document.getElementById('demo').innerHTML='Microsoft'">Show answer</button>
+<button type="button" onclick="document.getElementById('demo').innerHTML=''">Hide answer</button><br>
+<p></p>
+
+
+<font color="blue" size="4"><u><strong>IBM Compatible computers works on the principle of<input type="text"name="quiz2"placeholder="Enter your answer here..."maxlength="30" size="30">Computer.</strong></u></font><br>
+<p id="demo2"></p>
+<button type="button" onclick="document.getElementById('demo2').innerHTML='IBM(International Business Machine)'">Show answer</button>
+<button type="button" onclick="document.getElementById('demo2').innerHTML=''">Hide answer</button><br>
+<p></p>
+
+<font color="blue" size="4"><u><strong>Laptop computer has<input type="text"name="quiz3"placeholder="Enter your answer here..."maxlength="30" size="30">CPU, Mouse, Keyboard, Webcam, Monitor, etc.</strong></u></font><br>
+<p id="demo3"></p>
+<button type="button" onclick="document.getElementById('demo3').innerHTML='Attached'">Show answer</button>
+<button type="button" onclick="document.getElementById('demo3').innerHTML=''">Hide answer</button><br>
+<p></p>
+
+<input type="button" onclick="check(this.form)" value="submit">
+<button><a href="quiz7.html" >Skip</a></button>
+</form>
+
+<script language="javascript">
+
+function check(form)
+
+{
+if (form.quiz.value=="Microsoft" && form.quiz2.value=="IBM" && form.quiz3.value=="Attached")
+{
+window.open('congrat6.html')
+}
+else
+{
+alert('Wrong answer')
+}
+
+}
+
+
+
+</script>
+
+
+</body>
+</html>

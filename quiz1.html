@@ -1,0 +1,47 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1><font color="RED"><u><b><big><strong>Quiz</strong></big></b></u></font></h1>
+
+<form>
+<font color="Blue" size="4"><u><strong>Which part of CPU does actual Calculation?</strong></u></font><br>
+<input type="text"name="quiz"placeholder="Enter your answer here..."maxlength="20" size="30"><br>
+<p id="demo"></p>
+<button type="button" onclick="document.getElementById('demo').innerHTML='ALU(Arithmetical Logical Unit)'">Show answer</button>
+<button type="button" onclick="document.getElementById('demo').innerHTML=''">Hide answer</button><br>
+<p></p>
+<font color="Blue" size="4"><u><strong>What are the main function of CU?</strong></u></font><br>
+<input type="text"name="quiz2"placeholder="Enter your answer here..."maxlength="30" size="30"><br>
+<p id="demo2"></p>
+<button type="button" onclick="document.getElementById('demo2').innerHTML='Fetch,Decode and Execute'">Show answer</button>
+<button type="button" onclick="document.getElementById('demo2').innerHTML=''">Hide answer</button><br>
+<p></p>
+<input type="button" onclick="check(this.form)" value="submit">
+<button><a href="quiz2.html" >Skip</a></button>
+</form>
+
+<script language="javascript">
+
+function check(form)
+
+{
+if (form.quiz.value=="ALU" && form.quiz2.value=="Fetch, Decode and Execute")
+{
+window.open('congrat1.html')
+}
+else
+{
+alert('Wrong answer')
+}
+
+}
+
+
+
+</script>
+<a href="mid.html" ><h1><button>Back to homepage</button></h1></a>
+
+</body>
+</html>

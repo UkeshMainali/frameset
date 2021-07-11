@@ -1,0 +1,57 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<form>
+<font color="blue" size="4"><u><strong>What is the another name of ROM?</strong></u></font><br>
+<input type="text"name="quiz"placeholder="Enter your answer here..."maxlength="20" size="30"><br>
+<p id="demo"></p>
+<button type="button" onclick="document.getElementById('demo').innerHTML='CMOS(Complementary Metal Oxide Semiconductor'">Show answer</button>
+<button type="button" onclick="document.getElementById('demo').innerHTML=''">Hide answer</button><br>
+<p></p>
+
+<font color="blue" size="4"><u><strong>Which was the first stored program Computer?</strong></u></font><br>
+<input type="text"name="quiz2"placeholder="Enter your answer here..."maxlength="30" size="30"><br>
+<p id="demo2"></p>
+<button type="button" onclick="document.getElementById('demo2').innerHTML='EDVAC(Electronic Descrete Variable Automatic Computer)'">Show answer</button>
+<button type="button" onclick="document.getElementById('demo2').innerHTML=''">Hide answer</button><br>
+<p></p>
+
+<font color="blue" size="4"><u><strong>Which is the first general purpose electronic computer?</strong></u></font><br>
+<input type="text"name="quiz3"placeholder="Enter your answer here..."maxlength="30" size="30"><br>
+<p id="demo3"></p>
+<button type="button" onclick="document.getElementById('demo3').innerHTML='ENIAC(Electronic Numerical Integrator and Calculator)'">Show answer</button>
+<button type="button" onclick="document.getElementById('demo3').innerHTML=''">Hide answer</button><br>
+<p></p>
+
+
+<input type="button" onclick="check(this.form)" value="submit">
+<button><a href="quiz5.html" >Skip</a></button>
+</form>
+
+<script language="javascript">
+
+function check(form)
+
+{
+if (form.quiz.value=="CMOS" && form.quiz2.value=="EDVAC" && form.quiz3.value=="ENIAC")
+{
+window.open('congrat4.html')
+}
+else
+{
+alert('Wrong answer')
+}
+
+}
+
+
+
+
+</script>
+
+<a href="mid.html" ><h1><button>Back to homepage</button></h1></a>
+</body>
+</html>
