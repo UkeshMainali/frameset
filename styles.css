@@ -52,27 +52,11 @@ body
       /* font-variant: small-caps; */
       font-size: 20px;
       font-family: "Comic Sans Ms";
-      /*  background-color: black;  */
       width: 50%;
-      padding: 5px 0px 5px 0px; 
+      padding: 5px 0px; 
       font-weight: 900;
    }
 
-
-button
-{
-   background-color: darkgreen;
-   color: blue;
-   border-radius: 40px;
-   border: 5px slateblue;
-   cursor: hand;
-   height: 40px;
-   text-align: center;
-     font-size:25px;
-        position: absolute;
-        left: 50%;  
-        transform: translate(-50%); 
-  }
 
 font
     {
@@ -119,8 +103,18 @@ a:active
      width: 50%;
      
  }
-
  
+
+
+@keyframes rot {
+   0% {
+      transform: rotate(-3deg);
+   } 50% {
+      transform: rotate(3deg);
+   } 100% {
+      transform: rotate(-3deg);
+   }
+}
 
  .header2
  {
@@ -186,25 +180,7 @@ textarea:hover
     color: green;
  }
 
- #fun
- {
-   position: absolute;
-   left: 50%;
-   bottom: 50;
-   transform: translate(-50%,-50%);
-   background-color: powderblue;
-   border-radius: 3px;
-   width: 600px;
 
- }
-
-#fun:hover
-{
-   border: 5px solid greenyellow;
-   background-color: lightsteelblue;
-   border-radius: 15px;
-}
- 
 input[type="button"]:hover
  {
     background-color: lightgreen;
@@ -229,6 +205,26 @@ input[type="button"]:hover
    cursor: hand;
  }
 
+ /* Bulb.html section */ 
+#fun
+ {
+   position: absolute;
+   left: 50%;
+   bottom: 50;
+   transform: translate(-50%,-50%);
+   background-color: powderblue;
+   border-radius: 3px;
+   width: 600px;
+
+ }
+
+#fun:hover
+{
+   border: 5px solid greenyellow;
+   background-color: lightsteelblue;
+   border-radius: 15px;
+}
+
  .light
  {
    width: 30%;
@@ -245,6 +241,8 @@ input[type="button"]:hover
    border: 5px slateblue;
    cursor: hand;
  }
+  /* bulb.html section closed. */
+
 
  .form
    {
@@ -274,3 +272,100 @@ h2:hover
    border: lightgreen;
     
 }
+
+td
+{
+   border-radius: 5px;
+   border-:5px solid black;
+} 
+
+td:hover
+{
+   background-color: lightgreen;
+}
+
+
+th
+{
+   border-radius: 5px;
+   border-:5px solid black;
+} 
+
+th:hover
+{
+   background-color: lightgreen;
+}
+
+body
+{
+   position: relative;
+}
+
+.img
+{
+   width: 100%;
+   height: 100vh;
+ /*  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%,-50%); */
+}
+        /* back to homepage button section. */
+.button {
+   position: absolute;
+   text-align: center;
+   font-size: 32px;
+   font-family: 'Raleway', sans-serif;
+   color: hsl(220, 80%, 50%);
+   width: 270px;
+   height: 90px;
+   margin-bottom: 10px;
+   margin:30px 0px 20px calc(50vw - 175px);
+
+   border-radius: 30px;
+   text-shadow: 
+      0px 0px 0px 15px hsl(330, 80%, 50%),
+      0px 10px 0px 15px hsl(330, 80%, 40%),
+      0px 20px 20px 15px #0003;
+ box-shadow: 
+      0px 0px 0px 15px hsl(330, 80%, 50%),
+      0px 10px 0px 15px hsl(330, 80%, 40%),
+      0px 20px 20px 15px #0003;
+   cursor: pointer;
+   border-radius: 100px 30px 100px 30px;
+
+}
+
+.button p {
+   margin-top: 20px;
+   transform: rotate(-3deg);
+}
+
+.button:hover {
+   animation: .8s morph ease infinite;
+}
+
+.button:hover p {
+   animation: .8s rot ease infinite;
+}
+
+@keyframes morph {
+   0% {
+      border-radius: 100px 30px 100px 30px;
+   } 50% {
+      border-radius: 30px 100px 30px 100px;
+   } 100% {
+      border-radius: 100px 30px 100px 30px;
+   }
+}
+
+@keyframes rot {
+   0% {
+      transform: rotate(-3deg);
+   } 50% {
+      transform: rotate(3deg);
+   } 100% {
+      transform: rotate(-3deg);
+   }
+}
+   /* Back to homepage section closed. */
