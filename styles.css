@@ -1,3 +1,5 @@
+
+     /* Important for all html files section. */
 body
    {
        
@@ -87,7 +89,9 @@ a:active
   color:red;
   cursor: hand;
 }
-
+     /* Important for all html files secction.closed. */
+        
+        /* formula section */
 .main
 {
    position: relative;
@@ -106,16 +110,6 @@ a:active
  
 
 
-@keyframes rot {
-   0% {
-      transform: rotate(-3deg);
-   } 50% {
-      transform: rotate(3deg);
-   } 100% {
-      transform: rotate(-3deg);
-   }
-}
-
  .header2
  {
     float: right;
@@ -126,7 +120,10 @@ a:active
     margin: 7px;
     padding: 10px;
  }
+         /* formula section closed. */
 
+
+         /* form section started. */
  input
  {
     border-radius: 14px;
@@ -204,6 +201,7 @@ input[type="button"]:hover
    border: 5px slateblue;
    cursor: hand;
  }
+        /* form section closed. */
 
  /* Bulb.html section */ 
 #fun
@@ -313,13 +311,14 @@ body
         /* back to homepage button section. */
 .button {
    position: absolute;
+   padding-bottom: 10px;
    text-align: center;
    font-size: 32px;
    font-family: 'Raleway', sans-serif;
    color: hsl(220, 80%, 50%);
    width: 270px;
    height: 90px;
-   margin-bottom: 10px;
+   
    margin:30px 0px 20px calc(50vw - 175px);
 
    border-radius: 30px;
