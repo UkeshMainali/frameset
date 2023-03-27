@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.box-shadow {
+    box-shadow: 0.50px 0.50px 5px rgb(224, 224, 224),
+        0.50px 0.50px 5px rgb(232, 232, 232),
+        0.75px 0.75px 5px rgb(239, 239, 239),
+        1.00px 1.00px 5px rgb(242, 242, 242),
+        1.25px 1.25px 5px rgb(246, 246, 246),
+        1.75px 1.75px 5px rgb(249, 249, 249),
+        2.00px 2.00px 5px rgb(252, 252, 252);
+
+}
+
+.dark-box-shadow {
+    box-shadow: 0.50px 0.50px 5px rgb(215, 215, 215),
+        0.50px 0.50px 5px rgb(220, 220, 220),
+        0.75px 0.75px 5px rgb(222, 222, 222),
+        1.00px 1.00px 5px rgb(228, 228, 228),
+        1.25px 1.25px 5px rgb(232, 232, 232),
+        1.75px 1.75px 5px rgb(249, 249, 249),
+        2.00px 2.00px 5px rgb(252, 252, 252),
+        0.50px 0.50px 5px rgb(224, 224, 224),
+        0.50px 0.50px 5px rgb(232, 232, 232),
+        0.75px 0.75px 5px rgb(239, 239, 239),
+        1.00px 1.00px 5px rgb(242, 242, 242),
+        1.25px 1.25px 5px rgb(246, 246, 246),
+        1.75px 1.75px 5px rgb(249, 249, 249),
+        2.00px 2.00px 5px rgb(252, 252, 252);
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.no-box-shadow {
+    box-shadow: none;
+
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 4.81vw;
+    /*50px  3.70vw  75px 4.81vw*/
+    margin: 40px 0;
+    font-weight: 635;
+    /* text-shadow: 6px 6px 0px rgba(0,0,0,0.2); */
+    text-shadow: -1.1px -1.1px 0 black, 1.1px -1.1px 0 black, -1.1px 1.1px 0 black, 1.1px 1.1px 0 black;
+    /*text-shadow: -1px -1px 1px red,1px 1px 1px blue;*/
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 2.96vw;
+    /*40px*/
+    margin: 30px 0;
+    text-shadow: -1px -1px 1px black;
+    /* text-shadow: -2px 2px 0 #41ba45, 2px 2px 0 #c63d2b, 2px -2px 0 #42afac, -2px -2px 0 #c6c23f; */
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    font-size: 1.48vw;
+    /*20px*/
+    margin-bottom: 10px;
+    text-shadow: -1px -1px 1px var(--black);
+}
+
+
+
+h5 {
+    font-size: 1.258vw;
+    /*17px*/
+    margin: 10px 0 10px 10px;
+    text-shadow: -0.5px -0.5px 1px var(--black)
+}
+
+h6 {
+    font-size: 1.184vw;
+    /*16px*/
+    margin: 10px 0 10px 10px;
+    text-shadow: -0.5px -0.5px 1px var(--black)
+}
+
+.container p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.33vw;
+    /*18px*/
+    line-height: 24px;
+    color: rgb(51, 49, 49);
+    text-align: justify;
+    margin: 0 15px;
+    margin-bottom: 15px;
+
+}
+
+h2::first-letter, h3::first-letter, h4::first-letter, h5::first-letter, h6::first-letter, .container p::first-letter,  li::first-letter{
+    text-transform: uppercase;
+}
+

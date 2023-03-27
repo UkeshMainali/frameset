@@ -1,0 +1,163 @@
+
+.left-menu-bar {
+    background: var(--white);
+    width: 22%; /*19.13%*/
+    height: 581px;
+    overflow: auto;
+    position: fixed;
+    padding: 5px 0;
+    left: 0;
+    top: 56px;
+    z-index: 0;
+}
+
+.left-menu-bar .main-heading li a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    color: #000;
+    padding: 15px 2px;
+    font-size: 1.48vw;  /*20px*/
+    padding-left: 19px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.left-menu-bar .main-heading li a:hover{
+    background-color: var(--grey);
+}
+.left-menu-bar .main-heading li a:active{
+    background-color: var(--green);
+}
+
+.main-heading li a .fa-angle-down{
+    margin-left: 5px;
+    color: var(--black);
+}   
+
+.sub-heading li a{
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+.sub-heading{
+    list-style-type: none;
+    display: none;
+    transition: all 0.3s linear;
+}
+
+
+.main-heading li:hover .sub-heading{
+    display: block;
+}
+
+.container{
+    width: 78%;   /*80.87%*/
+    position: absolute;
+    right: 0;
+    top: 56px;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* background: red; */
+}
+
+.container .main{
+    padding: 10px 0 10px 0;
+    margin-bottom: 40px;
+    /* background-color: yellow; */
+}
+
+.container .main h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 3.70vw;   /*50px*/
+    margin: 40px 0;
+    text-shadow: -1px -1px 1px red,1px 1px 1px blue;
+
+}
+
+.container .main .sub-main{
+    padding: 10px 15px 20px 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+    /* background: red; */
+}
+
+.container .main .sub-main h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 2.96vw;  /*40px*/
+    margin: 30px 0;
+    text-shadow: -1px -1px 1px red;
+}
+
+.container .main .sub-main .sub-sub-main{
+    padding: 10px 15px;
+    margin-top: 36px;
+    border-radius: 10px;
+    /* background-color: blue; */
+}
+
+.container .main .sub-main .sub-sub-main div{
+    margin-bottom: 20px;
+    padding: 10px 20px 20px 20px;
+    border: 0 solid #e5e7eb;
+    border-radius: 5px;
+    box-shadow: 0.50px 0.50px 5px rgb(215,215,215),
+                0.50px 0.50px 5px rgb(220,220,220),
+                0.75px 0.75px 5px rgb(222,222,222),
+                1.00px 1.00px 5px rgb(228,228,228),
+                1.25px 1.25px 5px rgb(232,232,232),
+                1.75px 1.75px 5px rgb(249,249,249),
+                2.00px 2.00px 5px rgb(252,252,252);
+    
+
+}
+
+.container .main .sub-main .sub-sub-main div h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    font-size: 1.48vw;  /*20px*/
+    margin-bottom: 10px;
+    text-shadow: -1px -1px 1px var(--black);
+}
+
+.container .main .sub-main .sub-sub-main div p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.26vw;  /*17px*/
+    line-height: 24px;
+    color: rgb(51, 49, 49);
+    text-align: justify;
+}
+
+.container .main .sub-main .sub-sub-main div h5{
+    font-size: 17px;
+    margin: 10px 0 10px 10px;
+    text-shadow: -0.5px -0.5px 1px var(--black)
+}
+
+.container .main .sub-main .sub-sub-main div ul{
+    list-style-type: square;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    padding-left: 40px;
+    color: rgb(51, 49, 49);
+    text-align: justify;
+    line-height: 24px
+}
+
+.container .main .sub-main .sub-sub-main div div{
+    margin-top: 15px;
+}
+
+.container .main .sub-main .sub-sub-main div div h6{
+    font-size: 16px;
+    margin: 10px 0 10px 10px;
+    text-shadow: -0.5px -0.5px 1px var(--black)
+}
+
+.container .main .sub-main .sub-sub-main div div p{
+    width: 100%;
+    padding-left: 40px;
+    color: rgb(51, 49, 49);
+    text-align: justify;
+    line-height: 24px;
+    font-size: 16px;
+}

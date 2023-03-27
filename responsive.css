@@ -1,0 +1,13 @@
+@media only screen and (max-width: 821px) {
+    .left-menu-bar{
+        display: none;
+        height: 0;
+        width: 0;
+    }
+
+    .container{
+        width: 100vw;
+        position: absolute;
+        top: 78px;
+    }
+}
